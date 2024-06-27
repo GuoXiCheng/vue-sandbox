@@ -21,6 +21,7 @@
     <Select />
     <TextArea />
     <TextInputApp />
+    <DynamicAttribute />
 </template>
 
 <script setup lang="ts">
@@ -46,4 +47,5 @@ import Input from '@/components/BuiltInDirectives/VModel/Input.vue';
 import Select from '@/components/BuiltInDirectives/VModel/Select.vue';
 import TextArea from '@/components/BuiltInDirectives/VModel/TextArea.vue';
 import TextInputApp from '@/components/BuiltInDirectives/VModel/TextInputApp.vue';
+import DynamicAttribute from '@/components/BuiltInDirectives/VBind/DynamicAttribute.vue';
 </script>

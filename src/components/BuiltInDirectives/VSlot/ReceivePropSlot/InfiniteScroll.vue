@@ -11,6 +11,7 @@
 export default {
     name: 'InfiniteScroll',
     props: ['items'],
+    emits: ['loadMore'],
     methods: {
         handleScroll(event) {
             this.$emit('load-more');
