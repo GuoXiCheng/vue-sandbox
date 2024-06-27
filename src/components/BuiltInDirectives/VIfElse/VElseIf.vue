@@ -1,6 +1,6 @@
 <template>
     <div class="div-box">
-        <h1>v-else-if Directive</h1>
+        <h1>v-else-if 指令</h1>
         <div v-if="type === 'A'">
             A
         </div>

@@ -1,6 +1,6 @@
 <template>
     <div class="div-box">
-        <h1>v-for Directive with Array and ID</h1>
+        <h1>v-for 指令: Array + ID</h1>
         <ul>
             <li v-for="(item, index) in items" :key="item.id">{{ index + 1 }}. {{ item.name }}</li>
         </ul>

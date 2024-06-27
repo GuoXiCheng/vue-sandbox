@@ -1,11 +1,11 @@
 <template>
     <div class="div-box">
-        <h1>v-for Directive with Array</h1>
+        <h1>v-for 指令: Array</h1>
         <ul>
             <li v-for="item in items">{{ item }}</li>
         </ul>
 
-        <h1>v-for Directive with Array and Index</h1>
+        <h1>v-for 指令: Array + Index</h1>
         <ul>
             <li v-for="(item, index) in items">{{ index + 1 }}. {{ item }}</li>
         </ul>

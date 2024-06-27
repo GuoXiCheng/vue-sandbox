@@ -1,6 +1,6 @@
 <template>
     <div class="div-box">
-        <h1>v-once Directive</h1>
+        <h1>v-once 指令</h1>
         <p v-once>{{ msg }}</p>
         <p>{{ msg }}</p>
         <button @click="changeMessage">Change Message</button>

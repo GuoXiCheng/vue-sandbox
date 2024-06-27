@@ -1,6 +1,6 @@
 <template>
     <div class="div-box">
-        <h1>v-text Directive</h1>
+        <h1>v-text 指令</h1>
         <div v-text="msg"></div>
         <!-- 等同于 -->
         <div>{{ msg }}</div>

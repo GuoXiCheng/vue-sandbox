@@ -1,6 +1,6 @@
 <template>
     <div class="div-box">
-        <h1>v-show Directive</h1>
+        <h1>v-show 指令</h1>
         <div v-show="isShow">Hello Vue 3.0</div>
         <button @click="isShow = !isShow">Toggle Show</button>
     </div>

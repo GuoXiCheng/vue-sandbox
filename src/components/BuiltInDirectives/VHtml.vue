@@ -1,6 +1,6 @@
 <template>
     <div class="div-box">
-        <h1>v-html Directive</h1>
+        <h1>v-html 指令</h1>
         <div v-html="html"></div>
     </div>
 </template>

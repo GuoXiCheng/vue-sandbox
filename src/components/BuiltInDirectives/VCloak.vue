@@ -1,6 +1,6 @@
 <template>
     <div class="div-box">
-        <h1>v-cloak Directive</h1>
+        <h1>v-cloak 指令</h1>
         <p v-cloak>{{ msg }}</p>
     </div>
 </template>

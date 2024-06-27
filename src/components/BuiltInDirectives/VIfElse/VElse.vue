@@ -1,6 +1,6 @@
 <template>
     <div class="div-box">
-        <h1>v-else Directive</h1>
+        <h1>v-else 指令</h1>
         <div v-if="isShow">
             Now you see me
         </div>

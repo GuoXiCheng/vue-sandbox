@@ -14,6 +14,13 @@
     <VPre />
     <VOnce />
     <VCloak />
+    <NamedSlot />
+    <ReceivePropSlot />
+    <ReceivePropDeconstructSlot />
+    <Input />
+    <Select />
+    <TextArea />
+    <TextInputApp />
 </template>
 
 <script setup lang="ts">
@@ -32,4 +39,11 @@ import VForWithId from '@/components/BuiltInDirectives/VFor/VForWithId.vue';
 import VPre from '@/components/BuiltInDirectives/VPre.vue';
 import VOnce from '@/components/BuiltInDirectives/VOnce.vue';
 import VCloak from '@/components/BuiltInDirectives/VCloak.vue';
+import NamedSlot from '@/components/BuiltInDirectives/VSlot/NamedSlot/NamedSlot.vue';
+import ReceivePropSlot from '@/components/BuiltInDirectives/VSlot/ReceivePropSlot/ReceivePropSlot.vue';
+import ReceivePropDeconstructSlot from '@/components/BuiltInDirectives/VSlot/ReceivePropDeconstructSlot/ReceivePropDeconstructSlot.vue';
+import Input from '@/components/BuiltInDirectives/VModel/Input.vue';
+import Select from '@/components/BuiltInDirectives/VModel/Select.vue';
+import TextArea from '@/components/BuiltInDirectives/VModel/TextArea.vue';
+import TextInputApp from '@/components/BuiltInDirectives/VModel/TextInputApp.vue';
 </script>

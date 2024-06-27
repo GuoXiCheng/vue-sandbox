@@ -1,6 +1,6 @@
 <template>
     <div class="div-box">
-        <h1>v-for Directive with Iterable</h1>
+        <h1>v-for 指令: Iterable</h1>
         <ul>
             <li v-for="item in set">{{ item }}</li>
         </ul>
