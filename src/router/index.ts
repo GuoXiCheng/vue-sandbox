@@ -21,6 +21,11 @@ const router = createRouter({
       path: '/built-in-directives',
       name: 'built-in-directives',
       component: () => import('../views/BuiltInDirectivesView.vue')
+    },
+    {
+      path: '/template-syntax',
+      name: 'template-syntax',
+      component: () => import('../views/TemplateSyntaxView.vue')
     }
   ]
 })
