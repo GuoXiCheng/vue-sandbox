@@ -26,6 +26,11 @@ const router = createRouter({
       path: '/template-syntax',
       name: 'template-syntax',
       component: () => import('../views/TemplateSyntaxView.vue')
+    },
+    {
+      path: '/form',
+      name: 'form',
+      component: () => import('../views/FormView.vue')
     }
   ]
 })
