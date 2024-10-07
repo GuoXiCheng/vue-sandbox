@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
@@ -16,6 +15,7 @@ import HelloWorld from './components/HelloWorld.vue'
         <RouterLink to="/built-in-directives">Built-in Directives</RouterLink>
         <RouterLink to="/template-syntax">Template Syntax</RouterLink>
         <RouterLink to="/form">Form</RouterLink>
+        <RouterLink to="/computed-and-watch">Computed And Watch</RouterLink>
       </nav>
     </div>
   </header>
