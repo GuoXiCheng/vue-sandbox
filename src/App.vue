@@ -16,6 +16,7 @@ import { RouterLink, RouterView } from 'vue-router'
         <RouterLink to="/template-syntax">Template Syntax</RouterLink>
         <RouterLink to="/form">Form</RouterLink>
         <RouterLink to="/computed-and-watch">Computed And Watch</RouterLink>
+        <RouterLink to="/event-handling">Event Handling</RouterLink>
       </nav>
     </div>
   </header>

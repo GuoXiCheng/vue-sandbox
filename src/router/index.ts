@@ -36,6 +36,11 @@ const router = createRouter({
       path: '/computed-and-watch',
       name: 'computed-and-watch',
       component: () => import('../views/ComputedAndWatchView.vue')
+    },
+    {
+      path: '/event-handling',
+      name: 'event-handling',
+      component: () => import('../views/EventHandlingView.vue')
     }
   ]
 })
