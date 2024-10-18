@@ -41,6 +41,11 @@ const router = createRouter({
       path: '/event-handling',
       name: 'event-handling',
       component: () => import('../views/EventHandlingView.vue')
+    },
+    {
+      path: '/state-management',
+      name: 'state-management',
+      component: () => import('../views/StateManagementView.vue')
     }
   ]
 })
